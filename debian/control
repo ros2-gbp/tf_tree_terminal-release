@@ -1,0 +1,12 @@
+Source: ros-kilted-tf-tree-terminal
+Section: misc
+Priority: optional
+Maintainer: Tanneguy de Villemagne <tanneguydv@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-kilted-ament-copyright <!nocheck>, ros-kilted-ament-flake8 <!nocheck>, ros-kilted-ament-pep257 <!nocheck>, ros-kilted-geometry-msgs, ros-kilted-rclpy, ros-kilted-tf2-ros, ros-kilted-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-tf-tree-terminal
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-yaml, ros-kilted-geometry-msgs, ros-kilted-rclpy, ros-kilted-tf2-ros, ros-kilted-ros-workspace
+Description: A lightweight ROS 2 utility to visualize the Coordinate Transform (TF) tree directly in the terminal with a folder-style structure.
