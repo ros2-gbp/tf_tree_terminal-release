@@ -1,0 +1,52 @@
+ros-humble-tf-tree-terminal (2.0.0-6jammy) jammy; urgency=high
+
+  * update humble ubuntu version
+  * rename CI workflows
+  * fix typo []
+  * add distinct workflows
+  * update badges
+  * update ros2 ci
+  * updat ros tooling
+  * ros2 ci workflow
+  * Fix description for ROS2 TF Tree CLI Helper
+  * Add geometry_msgs dependency to package.xml
+  * add test for tree node
+  * Strip ANSI codes from content before saving
+    Added ANSI escape code stripping to save_to_file method.
+  * Add --no-color option to command line arguments
+  * Add color support for terminal output
+  * Implement TF rate summary in tree_node.py
+    Added functionality to track and summarize TF rates.
+  * Add frequency label to light tree node output
+  * Add --clear option to command line arguments
+  * Add clear_screen option to TFTreeCLI initialization
+  * Update TF snapshot formatting and compliance status symbols
+  * Update symbols for better clarity in output messages
+  * add helper comment
+  * update version
+  * update readme
+  * add light arg
+  * Hz, tf and joit_states status, helper with options
+  * linter changes
+  * add my name to package.xml
+  * Contributors: tanneguy, tanneguydv
+
+ -- Tanneguy de Villemagne <tanneguydv@gmail.com>  Mon, 05 Jan 2026 23:00:00 -0000
+
+ros-humble-tf-tree-terminal (1.0.1-6jammy) jammy; urgency=high
+
+  * update version
+  * add Datetime to output txt and ASCII header
+  * add tf-tree global command
+  * Contributors: tanneguydv
+
+ -- Tanneguy de Villemagne <tanneguydv@gmail.com>  Tue, 23 Dec 2025 13:36:00 -0000
+
+ros-humble-tf-tree-terminal (1.0.0-6jammy) jammy; urgency=high
+
+  * first commit
+  * Contributors: tanneguydv
+
+ -- Tanneguy de Villemagne <tanneguydv@gmail.com>  Tue, 23 Dec 2025 09:12:00 -0000
+
+
