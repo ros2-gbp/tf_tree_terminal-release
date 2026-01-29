@@ -1,0 +1,12 @@
+Source: ros-rolling-tf-tree-terminal
+Section: misc
+Priority: optional
+Maintainer: Tanneguy de Villemagne <tanneguydv@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-rolling-ament-copyright <!nocheck>, ros-rolling-ament-flake8 <!nocheck>, ros-rolling-ament-pep257 <!nocheck>, ros-rolling-geometry-msgs, ros-rolling-rclpy, ros-rolling-tf2-ros, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-tf-tree-terminal
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-yaml, ros-rolling-geometry-msgs, ros-rolling-rclpy, ros-rolling-tf2-ros, ros-rolling-ros-workspace
+Description: A lightweight ROS 2 utility to visualize the Coordinate Transform (TF) tree directly in the terminal with a folder-style structure.
