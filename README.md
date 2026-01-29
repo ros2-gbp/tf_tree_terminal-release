@@ -1,3 +1,26 @@
+## tf_tree_terminal (rolling) - 2.0.0-2
+
+The packages in the `tf_tree_terminal` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling tf_tree_terminal --edit` on `Thu, 29 Jan 2026 14:13:34 -0000`
+
+The `tf_tree_terminal` package was released.
+
+Version of package(s) in repository `tf_tree_terminal`:
+
+- upstream repository: https://github.com/Tanneguydv/tf_tree_terminal.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `2.0.0-1`
+- new version: `2.0.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## tf_tree_terminal (kilted) - 2.0.0-2
 
 The packages in the `tf_tree_terminal` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted tf_tree_terminal --edit` on `Thu, 29 Jan 2026 14:12:04 -0000`
