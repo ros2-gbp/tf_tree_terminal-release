@@ -104,4 +104,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/Tanneguydv/tf_tree_terminal.git
-    version: :{auto}
+    version: 2.0.0
+    version_saved: :{auto}
